@@ -3,6 +3,7 @@ import 'package:foodrecipe/widgets/Appbar.dart';
 import 'package:foodrecipe/widgets/Video.dart';
 import 'package:foodrecipe/widgets/Reviews.dart';
 import 'package:foodrecipe/widgets/UserProfile.dart';
+import 'package:foodrecipe/IngredientSection.dart';
 
 void main() {
   runApp(const MyApp());
@@ -59,6 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
               const SizedBox(
                 height: 20,
               ),
+              const IngredientSection(),
             ],
           ),
         ),
