@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:foodrecipe/widgets/Appbar.dart';
 import 'package:foodrecipe/widgets/Video.dart';
+import 'package:foodrecipe/widgets/Reviews.dart';
 
 void main() {
   runApp(const MyApp());
@@ -48,6 +49,10 @@ class _MyHomePageState extends State<MyHomePage> {
               VideoImage(bgImage: "assets/images/image_13.png"),
               const SizedBox(
                 height: 14,
+              ),
+              Reviews(rating: 4.5),
+              const SizedBox(
+                height: 12,
               ),
             ],
           ),
