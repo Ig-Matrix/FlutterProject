@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
-class Card extends StatelessWidget {
+class IngredientsCard extends StatelessWidget {
   String image;
   String name;
   String weight;
 
 
-   Card({super.key, required this.image, required this.name, required this.weight});
+   IngredientsCard({super.key, required this.image, required this.name, required this.weight});
 
   @override
   Widget build(BuildContext context) {
