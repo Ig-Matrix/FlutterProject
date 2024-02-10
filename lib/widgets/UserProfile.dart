@@ -13,11 +13,9 @@ class UserProfile extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Row(children: [
-          Container(
-            child: Image.asset(
-              image,
-              fit: BoxFit.cover,
-            ),
+          Image.asset(
+            image,
+            fit: BoxFit.cover,
           ),
           const SizedBox(
             width: 10,
@@ -53,16 +51,16 @@ class UserProfile extends StatelessWidget {
         ]),
         ElevatedButton(
           onPressed: () {},
-          child: const Text('Follow'),
           style: ElevatedButton.styleFrom(
             backgroundColor: Colors.red,
             foregroundColor: Colors.white,
             padding:
             const EdgeInsets.symmetric(vertical: 8, horizontal: 8),
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12), // <-- Radius
+              borderRadius: BorderRadius.circular(12), 
             ),
           ),
+          child: const Text('Follow'),
         ),
       ],
     );
