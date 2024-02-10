@@ -43,12 +43,12 @@ class _MyHomePageState extends State<MyHomePage> {
             children: [
               const Text(
                 "How to make french toast",
-                style: TextStyle(fontSize: 25, fontWeight: FontWeight.w600),
+                style: TextStyle(fontSize: 25, fontWeight: FontWeight.w600, fontFamily: 'Poppins',),
               ),
               const SizedBox(
                 height: 17,
               ),
-              VideoImage(bgImage: "assets/images/image_13.png"),
+              const VideoImage(bgImage: "assets/images/image_13.png"),
               const SizedBox(
                 height: 14,
               ),

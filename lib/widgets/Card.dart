@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 class IngredientsCard extends StatelessWidget {
-  String image;
-  String name;
-  String weight;
+  final String image;
+  final String name;
+  final String weight;
 
 
-   IngredientsCard({super.key, required this.image, required this.name, required this.weight});
+   const IngredientsCard({super.key, required this.image, required this.name, required this.weight});
 
   @override
   Widget build(BuildContext context) {
@@ -36,7 +36,7 @@ class IngredientsCard extends StatelessWidget {
               Text(
                 name,
                 style: const TextStyle(
-                    fontSize: 17, fontWeight: FontWeight.w700),
+                    fontSize: 17, fontWeight: FontWeight.w700, fontFamily: 'Poppins',),
               ),
             ],
           ),
@@ -46,6 +46,7 @@ class IngredientsCard extends StatelessWidget {
               fontWeight: FontWeight.w500,
               color: Colors.grey,
               fontSize: 14,
+              fontFamily: 'Poppins',
             ),
           ),
         ],

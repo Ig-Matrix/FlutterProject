@@ -26,7 +26,7 @@ class UserProfile extends StatelessWidget {
               Text(
                 name,
                 style: const TextStyle(
-                    fontWeight: FontWeight.bold, fontSize: 17),
+                    fontWeight: FontWeight.bold, fontSize: 17, fontFamily: 'Poppins',),
               ),
               Row(
                 children: [
@@ -42,6 +42,7 @@ class UserProfile extends StatelessWidget {
                       fontWeight: FontWeight.w500,
                       color: Colors.grey,
                       fontSize: 14,
+                      fontFamily: 'Poppins',
                     ),
                   ),
                 ],

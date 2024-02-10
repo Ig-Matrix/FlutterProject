@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
 class VideoImage extends StatelessWidget {
-  String bgImage;
-   VideoImage({super.key, required this.bgImage});
+  final String bgImage;
+   const VideoImage({super.key, required this.bgImage});
 
   @override
   Widget build(BuildContext context) {

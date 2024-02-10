@@ -23,6 +23,7 @@ class Reviews extends StatelessWidget {
           "$rating",
           style: const TextStyle(
             fontWeight: FontWeight.bold,
+            fontFamily: 'Poppins',
           ),
         ),
         const SizedBox(
@@ -34,6 +35,7 @@ class Reviews extends StatelessWidget {
             fontWeight: FontWeight.w500,
             color: Colors.grey,
             fontSize: 14,
+            fontFamily: 'Poppins',
           ),
         ),
         const SizedBox(
