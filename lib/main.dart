@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:foodrecipe/widgets/Appbar.dart';
 import 'package:foodrecipe/widgets/Video.dart';
 import 'package:foodrecipe/widgets/Reviews.dart';
+import 'package:foodrecipe/widgets/UserProfile.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Flutter Food Recipe',
       home: MyHomePage(title: ''),
       debugShowCheckedModeBanner: false,
@@ -53,6 +54,10 @@ class _MyHomePageState extends State<MyHomePage> {
               Reviews(rating: 4.5),
               const SizedBox(
                 height: 12,
+              ),
+              UserProfile(image: "assets/images/unsplash.png", name: "Roberta Anny", location: "Bali, Indonesia"),
+              const SizedBox(
+                height: 20,
               ),
             ],
           ),
