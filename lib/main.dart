@@ -4,6 +4,7 @@ import 'package:foodrecipe/widgets/Video.dart';
 import 'package:foodrecipe/widgets/Reviews.dart';
 import 'package:foodrecipe/widgets/UserProfile.dart';
 import 'package:foodrecipe/IngredientSection.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 void main() {
   runApp(const MyApp());
@@ -41,9 +42,12 @@ class _MyHomePageState extends State<MyHomePage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              const Text(
+              Text(
                 "How to make french toast",
-                style: TextStyle(fontSize: 25, fontWeight: FontWeight.w600, fontFamily: 'Poppins',),
+                style: GoogleFonts.poppins(
+                  fontSize: 25,
+                  fontWeight: FontWeight.w600,
+                ),
               ),
               const SizedBox(
                 height: 17,
@@ -56,7 +60,11 @@ class _MyHomePageState extends State<MyHomePage> {
               const SizedBox(
                 height: 12,
               ),
-              UserProfile(image: "assets/images/unsplash.png", name: "Roberta Anny", location: "Bali, Indonesia"),
+              const UserProfile(
+                image: "assets/images/unsplash.png",
+                name: "Roberta Anny",
+                location: "Bali, Indonesia",
+              ),
               const SizedBox(
                 height: 20,
               ),

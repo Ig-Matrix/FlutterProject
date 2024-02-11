@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 class UserProfile extends StatelessWidget {
-  String image;
-  String name;
-  String location;
+  final String image;
+  final String name;
+  final String location;
 
-  UserProfile({super.key, required  this.image, required  this.name, required  this.location });
+  const UserProfile({super.key, required  this.image, required  this.name, required  this.location });
 
   @override
   Widget build(BuildContext context) {
@@ -56,7 +56,7 @@ class UserProfile extends StatelessWidget {
             backgroundColor: Colors.red,
             foregroundColor: Colors.white,
             padding:
-            const EdgeInsets.symmetric(vertical: 8, horizontal: 8),
+            const EdgeInsets.all(10),
             shape: RoundedRectangleBorder(
               borderRadius: BorderRadius.circular(12), 
             ),
