@@ -33,7 +33,7 @@ class Reviews extends StatelessWidget {
           "(300 Reviews)",
           style: TextStyle(
             fontWeight: FontWeight.w500,
-            color: Colors.grey,
+            color: Color(0xFFA9A9A9),
             fontSize: 14,
             fontFamily: 'Poppins',
           ),

@@ -6,9 +6,9 @@ class IngredientSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return const Column(
       children: [
-        const Row(
+        Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
@@ -19,21 +19,21 @@ class IngredientSection extends StatelessWidget {
               "5 items",
               style: TextStyle(
                 fontWeight: FontWeight.w500,
-                color: Colors.grey,
+                color: Color(0xFFA9A9A9),
                 fontSize: 14,
               ),
             ),
           ],
         ),
-        const SizedBox(
+        SizedBox(
           height: 15,
         ),
         IngredientsCard(image: "assets/images/coffee.png", name: "Milk", weight: "200"),
-        const SizedBox(
+        SizedBox(
           height: 15,
         ),
         IngredientsCard(image: "assets/images/burger.png", name: "Bread", weight: "200"),
-        const SizedBox(
+        SizedBox(
           height: 15,
         ),
         IngredientsCard(image: "assets/images/coffee.png", name: "Eggs", weight: "200"),

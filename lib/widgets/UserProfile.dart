@@ -40,7 +40,7 @@ class UserProfile extends StatelessWidget {
                     location,
                     style: const TextStyle(
                       fontWeight: FontWeight.w500,
-                      color: Colors.grey,
+                      color: Color(0xFFA9A9A9),
                       fontSize: 14,
                       fontFamily: 'Poppins',
                     ),
@@ -53,12 +53,12 @@ class UserProfile extends StatelessWidget {
         ElevatedButton(
           onPressed: () {},
           style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.red,
+            backgroundColor: Color(0xFFE23E3E),
             foregroundColor: Colors.white,
             padding:
-            const EdgeInsets.all(10),
+            const EdgeInsets.all(12),
             shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(12), 
+              borderRadius: BorderRadius.circular(10), 
             ),
           ),
           child: const Text('Follow'),
