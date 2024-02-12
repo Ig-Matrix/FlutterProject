@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:foodrecipe/widgets/Appbar.dart';
-import 'package:foodrecipe/widgets/Video.dart';
+import 'package:foodrecipe/widgets/VideoImage.dart';
 import 'package:foodrecipe/widgets/Reviews.dart';
 import 'package:foodrecipe/widgets/UserProfile.dart';
 import 'package:foodrecipe/IngredientSection.dart';
